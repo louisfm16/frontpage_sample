@@ -1,0 +1,42 @@
+@mixin primary-button {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    width: 135px;
+    margin: 20px 0;
+    background-color: $primary;
+    color: $tertiary;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba($black, .25), 0 2px $tertiary inset;
+}
+
+@mixin primary-button-after {
+    content: url("images/arrow-btn-white.png");
+    height: 8px;
+    width: 6px;
+    margin-left: 5px;
+}
+
+@mixin tertiary-button {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    width: 135px;
+    background-color: $tertiary;
+    color: $primary;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba($black, .25), 0 2px $tertiary inset;
+}
+
+@mixin tertiary-button-after {
+    content: url("images/arrow-btn-blue.png");
+    height: 8px;
+    width: 6px;
+    margin-left: 5px;
+}

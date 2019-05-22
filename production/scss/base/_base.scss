@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4 {
+    color: $primary;
+    margin-bottom: 42px;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    background-image: url("images/tan.jpg");
+    padding-bottom: 40px;
+
+    .big-container {
+        background-color: $tertiary;
+        margin-bottom: 5px;
+        padding: 40px 40px 20px;
+    }
+}

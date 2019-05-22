@@ -1,0 +1,70 @@
+@media only screen and (max-width: 1020px) {
+    // Main Intro picture the user see's
+    // Social Media Links
+    .banner {
+        &__links {
+            right: 5%;
+        }
+    }
+
+    // Every separate section of the web page 
+    // e.g. Learn more, Products, etc.
+    .content {
+        max-width: 95%;
+    }
+
+    // Quick information or main statement about the company
+    // State finder search box
+    .header {
+        padding-bottom: 0;
+
+        &__about {
+            margin-bottom: 20px;
+        }
+    }
+
+    .state-modal {
+        &--box {
+            width: 80%;
+            margin: 15% auto;
+        }
+    
+        &--close {
+            right: 8%;
+        }
+    }
+
+    // Learn more section
+    .learn-more {
+        &__item {
+            min-height: 150px;
+            margin-bottom: 15px;
+        }
+    }
+
+    // Products section
+    .products {
+        &__item {
+            &--picture {
+                height: 45%;
+                width: 60%;
+            }
+        }
+
+
+        &__details {
+            &--price {
+                margin-bottom: 20px;
+            }
+
+            &--buy {
+                margin-top: 30px;
+            }
+    
+            &--picture {
+                width: 100%;
+                margin: 0;
+            }
+        }
+    }
+}
