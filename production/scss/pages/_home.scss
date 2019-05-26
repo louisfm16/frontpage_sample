@@ -28,13 +28,12 @@
 
         & li {
             display: inline-block;
-            opacity: 0.8;
+            opacity: 0.7;
             height: 25px;
             width: 25px;
         }
 
         & li:hover {
-            cursor: pointer;
             opacity: 1;
             transition: opacity 0.3s ease-in-out;
         }
@@ -42,6 +41,7 @@
 
     &__links::before {
         content: "Connect:";
+        text-shadow: 1px 1px 1px rgba($black, .5);
         color: $tertiary;
         opacity: 0.8;
         margin-right: 10px;

@@ -7,7 +7,13 @@
         }
 
         &__links {
-            display: none;
+            color: $primary;
+            bottom: 4%;
+            right: 5%;
+
+            & li {
+                opacity: 1;
+            }
         }
     }
 
